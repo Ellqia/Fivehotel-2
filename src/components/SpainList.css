@@ -1,0 +1,199 @@
+/* SpainList.css */
+.details-link {
+  text-decoration: none;
+  color: inherit; /* Maintain original color */
+}
+
+.hotel-card { 
+  display: flex; 
+  align-items: stretch; 
+  border: 1px solid #ccc; 
+  padding: 16px; 
+  margin-right: 10px; 
+  margin-left: 5px; 
+ 
+  margin-bottom: 40px; 
+  background-color: #D9CEDD; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  width: calc(100% - 40px); 
+  max-width: 1000px; 
+  overflow: hidden;
+}
+
+.hotel-image { 
+  width: 300px; 
+  height: 100%; 
+  border-radius: 5px; 
+  margin-right: 20px; 
+  object-fit: cover;
+  margin-bottom: 0%;
+}
+
+.hotel-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.hotel-name {
+  flex-grow: 1; /* Allow the hotel name to take up available space */
+}
+.hotel-header {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px; /* Add space between items */
+}
+
+.hotel-description {
+  max-height: 100px; 
+  overflow-y: auto;
+  margin-bottom: 10px;
+  width: fit-content;
+  text-align: left; 
+  padding: 10px;
+  padding-right: 20px;
+  margin-top: 10px; /* Add some space below the header */
+
+  line-height: 1.5; /* Adjusts the space between lines for readability */
+  border: 1px solid #ccc;
+  border-radius: 0px; /* Rounds the corners of the text box */
+  background-color: #D9CEDD;  /* Background color for the text box */
+}
+
+
+
+.boka-button {
+  background-color: #65558F;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  width: 120px;
+}
+
+.boka-button:hover {
+  background-color: #a08fa7;
+}
+
+
+.right-side-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: auto; /* Align to the right side */
+}
+
+.price-breakfast {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+
+.navigation-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+
+
+.hotel-list {
+ 
+  max-width: 1000px; /* Same max width */
+  
+}
+
+
+.fa-star-o {
+  color: #D9CEDD; /* Blurred background color to match the hotel card */
+  filter: blur(2px); /* Blur effect for the unfilled star */
+  background-color: #D9CEDD;
+  border-radius: 50%;
+}
+
+.hotel-stars,
+.hotel-map {
+  flex-shrink: 0; /* Prevent shrinking */
+}
+@media (max-width: 767px) {
+  .hotel-card {
+    flex-direction: column; /* For smaller screens */
+  }
+}
+/* SpainList.css */
+
+.hotel-header {
+  display: flex;
+  align-items: center;
+}
+
+.map-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px; /* Decrease space between map icon and hotel name */
+}
+
+.hotel-header h2 {
+  flex: 1;
+  margin: 0;
+  padding-left: -200px; /* text */
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+  margin-left: 5px; /* Decrease space between hotel name and stars */
+}
+
+.star {
+  font-size: 20px;
+  color: #ffffff;
+  margin-right: 3px; /* Decrease space between each star */
+  margin-left: 0; /* This will align the stars to the left */
+  text-align: left;
+}
+
+.thumbs-up {
+  margin-left: 5px; /* Decrease space between stars and thumbs up */
+}
+
+
+.spain-list-container {
+  position: relative;
+  display: inline-block;
+}
+
+.spain-passenger-dropdown {
+  position: absolute;
+  top: 100%; /* Position below the button */
+  left: 0;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.spain-passenger-row {
+  margin-bottom: 30px;
+}
+
+.spain-input,
+.spain-dropdown {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+
+
+

@@ -1,0 +1,30 @@
+.footer {
+  background-color: #f5f5dc; /* Mild beige background */
+  padding: 20px;
+  text-align: center;
+
+
+
+.footer-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  
+}
+
+.footer-menu li {
+  display: inline;
+}
+
+.footer-menu li a {
+  color: #65558F;; /* Dark purple text */
+  text-decoration: none;
+ 
+}
+
+.footer-menu li a:hover {
+  text-decoration: underline;
+}

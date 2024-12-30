@@ -1,0 +1,53 @@
+.image-slider {
+  display: flex; /* Använd flexbox */
+  align-items: center; /* Centrera objekt vertikalt */
+  justify-content: center; /* Centrera objekt horisontellt */
+  margin-bottom: 20px;
+}
+
+.prev-arrow, .next-arrow {
+  cursor: pointer; /* Förändra muspekaren till en hand när man hovrar över knappen */
+  font-size: 24px; /* Justera teckenstorleken */
+  background: none; /* Ingen bakgrundsfärg */
+  border: none; /* Ingen kantlinje */
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.image-container {
+  display: flex; /* Använd flexbox */
+  overflow: hidden; /* Dölj element som överflödar containern */
+}
+
+.slider-image {
+  width: 200px; /* Fast bredd på bilder */
+  height: auto; /* Behåll bildförhållandet */
+  margin: 0 5px;
+  cursor: pointer; /* Förändra muspekaren till en hand när man hovrar över bilden */
+}
+
+.modal {
+  position: fixed; /* Fixera modalens position */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8); /* Mörklägga bakgrunden */
+  display: flex; /* Använd flexbox */
+  align-items: center; /* Centrera objekt vertikalt */
+  justify-content: center; /* Centrera objekt horisontellt */
+}
+
+.modal-image {
+  max-width: 80%; /* Maximal bredd på bilden */
+  max-height: 80%; /* Maximal höjd på bilden */
+}
+
+.close-modal {
+  position: absolute; /* Absolut positionering */
+  top: 20px;
+  right: 30px;
+  font-size: 40px; /* Justera teckenstorleken */
+  color: #fff; /* Vit textfärg */
+  cursor: pointer; /* Förändra muspekaren till en hand när man hovrar över knappen */
+}

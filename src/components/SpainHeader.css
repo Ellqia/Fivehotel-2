@@ -1,0 +1,104 @@
+.Spain-banner {
+  position: relative;
+  width: 100%;
+  height: 400px; /* Justera höjden efter behov */
+}
+
+.Spain-banner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Säkerställer att bilden täcker hela bannerområdet */
+}
+
+.banner-heading {
+  color: #C0C0C0 !important; /* Ljus silverfärg */
+  text-shadow: 5px 5px 4px rgba(13, 12, 12, 0.7) !important; /* Mörk skugga */
+  font-size: 60px !important;
+  font-weight: bold !important;
+  text-align: left !important;
+  line-height: 1.5 !important;
+}
+
+.strap {
+  height: 10mm;
+  background-color: #BFA1C3; /* Mild lila färg */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 1200px;
+}
+
+.strap p {
+  margin: 0;
+  margin-left: 20px; /* Lägger till en 20px vänstermarginal */
+  font-size: 16px;
+  color: rgb(49, 33, 56);
+  font-weight: bold; /* Gör texten fet */
+  max-width: 1200px;
+}
+
+.spain-search-bar {
+  display: flex;
+  justify-content: center; /* Centrerar sökfältet */
+  margin: 20px;
+}
+
+.spain-search-form input, .search-form select, .search-form button {
+  padding: 10px;
+  font-size: 16px;
+  width: 150px; /* Gör alla fält lika stora */
+  margin-right: 5px; /* Avstånd mellan fälten */
+  border: 1px solid #65558F; /* Mörklila kant */
+  border-radius: 10px; /* Lätt rundade hörn */
+}
+
+.search-form select {
+  width: auto; /* Justerar bredden för valrutor */
+}
+
+.search-form button {
+  background-color: #65558F; /* Mörklila färg */
+  color: white; /* Gör texten läsbar */
+  border: 1px solid #65558F; /* Mörklila kant */
+  padding: 10px;
+  border-radius: 10px; /* Lätt rundade hörn */
+  cursor: pointer; /* Ändrar markören till pekare vid hovring */
+}
+
+.search-form button:hover {
+  background-color: #a08fa7; /* Ljusare lila vid hovring */
+}
+
+.passenger-container {
+  position: relative;
+  margin-right: 5px; /* Justerar med de andra elementen */
+  margin-left: 5px; /* Justerar med de andra elementen */
+}
+
+.passenger-dropdown {
+  display: flex;
+  flex-direction: column; /* Använder kolumnlayout för dropdown */
+  position: absolute; /* Positionerar dropdown absolut */
+  background-color: #65558F;
+  box-shadow: 2px 2px #ccc;
+  padding: 10px;
+  z-index: 1000;
+}
+
+.passenger-dropdown {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.calendar-input {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}

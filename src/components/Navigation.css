@@ -1,0 +1,64 @@
+.header {
+  display: flex;
+  justify-content: space-between; /* Fördela utrymme mellan barnen */
+  align-items: center; /* Centrera barnen vertikalt */
+  padding: 0 20px; /* Justera padding för att krympa från båda sidor */
+  background-color: #f8f8f8; /* Bakgrundsfärg */
+}
+
+.logo {
+  width: 200px; /* Fast bredd */
+  height: auto; /* Justera höjden för att behålla proportioner */
+  max-height: 100px; /* Maxhöjd för att förhindra krympning */
+  margin-top: 20px; /* Marginal ovan */
+  margin-bottom: 20px; /* Marginal nedan */
+}
+
+.nav {
+  display: flex;
+  align-items: center; /* Centrera barnen vertikalt */
+  flex-grow: 1; /* Låt elementet växa för att fylla tillgängligt utrymme */
+  justify-content: center; /* Centrera innehållet horisontellt */
+  text-transform: uppercase; /* Gör texten versal */
+  padding-left: 20px; /* Lägg till padding för balans */
+  padding-right: 20px; /* Lägg till padding för balans */
+}
+
+.nav-links {
+  display: flex;
+  list-style: none; /* Ta bort punktlistor */
+  margin: 0; /* Ta bort standardmarginal */
+  padding: 0; /* Ta bort standardpadding */
+  gap: 20px; /* Håll avståndet mellan navigationslänkarna */
+}
+
+.nav-links li {
+  margin: 0 15px; /* Marginal runt varje listobjekt */
+}
+
+.nav-links li a {
+  text-decoration: none; /* Ta bort understrykning från länkar */
+  font-size: 25px; /* Teckenstorlek */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Teckensnitt */
+  color: #65558F; /* Textfärg */
+  font-weight: bold; /* Fet stil */
+}
+
+.nav-links li a:hover {
+  text-decoration: underline; /* Understrykning vid hovring */
+}
+
+.search-button {
+  background-color: #65558F; /* Bakgrundsfärg */
+  padding: 10px 20px; /* Padding inuti knappen */
+  cursor: pointer; /* Markören ändras till pekare vid hovring */
+  border-radius: 10px; /* Rundade hörn */
+  margin-left: 40px; /* Marginal till vänster */
+  font-size: 16px; /* Teckenstorlek */
+  color: #fff; /* Textfärg */
+  width: 150px; /* Fast bredd */
+}
+
+.search-button:hover {
+  background-color: #a08fa7; /* Ljusare bakgrundsfärg vid hovring */
+}

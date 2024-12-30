@@ -1,0 +1,18 @@
+.kop-button {
+  background-color: #65558F; /*Bakgrundsfarg på knapp*/
+  color: rgb(255, 255, 255); /* Textfarg*/
+  padding: 5px 20px; /*Storlek på knapp*/
+  border-radius: 40px; /* Rundade horn*/
+  font-size: 16px; /* Textstorlek*/
+  font-weight: semi-bold; /* Gor texten semi-bold*/
+  border: none; /*Ingen kantlinje*/
+  cursor: pointer; /* Gör att muspekaren ser ut som en hand när den dras över knappen*/
+  margin-top: 40px; /* Avstånd till formuläret */
+  margin-left: 550px; /* Avstånd vänster */
+  margin-right: 40px; /* Avstånd höger */
+  margin-bottom: 50px; /* Avstånd mellan knapparna och footer */
+}
+
+.kop-button:hover {
+  background-color: #D9CEDD; /* Ändrar bakgrundsfärgen vid hover */
+}

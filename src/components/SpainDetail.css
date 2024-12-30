@@ -1,0 +1,17 @@
+.hotel-detail {
+  text-align: center; /* Centrerar textinnehållet */
+}
+
+.hotel-detail img {
+  max-width: 100%; /* Bildens maximala bredd är 100% av dess containerelement */
+  height: auto; /* Höjden justeras automatiskt för att behålla proportionerna */
+  border-radius: 8px; /* Rundade hörn med 8px radie */
+}
+
+.hotel-detail h1 {
+  font-size: 36px; /* Teckenstorlek för huvudrubriken */
+}
+
+.hotel-detail p {
+  font-size: 18px; /* Teckenstorlek för stycke */
+}

@@ -1,0 +1,165 @@
+body {
+  background-color: #f8f9fa; /* Lägg till en bakgrundsfärg till body */
+}
+
+.betalformular-page {
+  text-align: center;
+  width: 100%;
+}
+
+.betalformular-banner-img {
+  width: 100%; /* Gör bannern full bredd */
+  height: auto; /* Behåll bildförhållandet */
+  margin-bottom: 20px; /* Lägg till utrymme under bannern */
+}
+
+/* Säkerställ att strap är korrekt stylad */
+.betalformular-strap {
+  margin-bottom: 20px;
+}
+
+/* Container för hela formuläret */
+.betalformular-form-container {
+  background-color: #FFF9DB; /* Mild gul bakgrund */
+  padding: 20px; /* Lägg till lite padding */
+  border-radius: 10px; /* Valfritt: lägg till rundade hörn */
+  margin: 20px auto; /* Centrera containern horisontellt */
+  max-width: 800px; /* Max bredd för att säkerställa centrering */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Valfritt: lägg till en subtil skugga */
+}
+
+/* Stil för hela formuläret */
+.betalformular-user-details-form {
+  display: flex;
+  flex-direction: column; /* Säkerställer att element är i en kolumn */
+  gap: 20px; /* Skapar mellanrum mellan fälten */
+  margin-top: 20px;
+}
+
+/* Stil för varje label */
+.betalformular-form-label {
+  width: 100%; /* Säkerställer att etiketterna tar full bredd */
+  display: flex;
+  align-items: center; /* Justerar element till centrum vertikalt */
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+
+
+.betalformular-input-with-radio {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-left: 40px;
+}
+
+.betalformular-input-with-radio input[type="text"] {
+  flex-grow: 1; /* Säkerställ att textinmatningen tar upp återstående utrymme */
+  margin-right: 10px;
+  margin-left: 50px;
+}
+
+.betalformular-input-with-radio .betalformular-radio-button {
+  position: absolute;
+  left: 10px; /* Positionera inuti textfältet */
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.betalformular-input-with-radio .betalformular-radio-button:checked {
+  background-color: #65558F; /* Gör bullet lila när markerad */
+}
+
+/* Stil för placeholder-text */
+.betalformular-input-field::placeholder {
+  color: #000000; /* Färg på placeholder-text */
+  font-style: italic; /* Stil för placeholder-text */
+}
+
+/* Stil för bokningsdetaljer */
+.betalformular-booking-details {
+  margin-top: 20px; /* Lägg till marginal för att säkerställa mellanrum */
+}
+
+.betalformular-villkor {
+  margin-top: 10px; /* Lägg till marginal för att säkerställa mellanrum */
+}
+
+.betalformular-button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  width: 80%;
+  margin-left: 80px;
+  margin-bottom: 60px;
+
+}
+
+.betalformular-shared-button {
+  background-color: #D9CEDD;
+  color: rgb(0, 0, 0);
+  padding: 10px 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: semi-bold;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+}
+
+.betalformular-shared-button:hover {
+  background-color: #65558F;
+}
+
+
+.betalformular-small-text {
+  display: block; /* Ensures the text appears below the input field */
+  font-size: 12px; /* Small font size */
+  color: #666; /* Grey color for the text */
+  margin-top: 5px; /* Space above the text */
+}
+.betalformular-form-label {
+  width: 80%;
+  display: flex;
+  flex-direction: column; /* Make sure the label wraps contents in a column */
+  align-items: flex-start; /* Align items to start of the container */
+  margin-bottom: 15px;
+  margin-left: 30px;
+  font-size: 16px;
+  color: #333;
+}
+
+.betalformular-input-with-radio {
+  display: flex;
+  align-items: center;
+  width: 100%; /* Ensure it takes the full width of the container */
+  position: relative;
+}
+
+.betalformular-input-field {
+  width: 20%; /* Ensure input field takes the full width */
+  padding: 30px;
+  height: auto;
+  margin-right: 30px;
+  border-radius: 1px;
+  border: 1px solid #D9CEDD;
+  font-size: 16px;
+  margin-left: 30px; /* Adjust this if necessary */
+}
+
+.betalformular-small-text {
+  display: block; /* Säkerställ att texten visas under input-fältet */
+  font-size: 12px; /* Liten teckenstorlek */
+  color: #666; /* Grå färg för texten */
+  margin-top: 5px; /* Utrymme ovanför texten */
+  margin-left: 10px; /* Säkerställ att det är justerat med input-fältet */
+  
+}
+
+

@@ -1,0 +1,20 @@
+.betal-button {
+  background-color: #65558F; /*bakgrundsfarg på betal-knapp*/
+  color: rgb(255, 255, 255); /* Textfärg*/
+
+  border-radius: 100px; /*Rundade hörn*/
+  width: 100px;
+  font-size: 16px; /* Teckenstorlek*/
+  font-weight: semi-bold; /* Gör bokstäverna semi-bold*/
+  border: none; /* Ingen kantlinje*/
+  cursor: pointer; /*Andrar så att muspekaren blir till en hand när den förs över knappen*/
+  
+}
+
+.betal-button {
+  margin-left: 60px; /* Öka avståndet till höger om knappen*/
+}
+
+.betal-button:hover {
+  background-color: #D9CEDD; /* Ändrar bakgrundsfärgen vid hover */
+}

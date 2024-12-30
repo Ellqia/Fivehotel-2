@@ -1,0 +1,65 @@
+/* Header container */
+.header {
+  position: absolute;
+  width: 100%; /* Use 100% for a responsive width */
+  max-width: 1440px; /* Ensure it doesn't exceed 1440px */
+  height: 135px;
+  left: 0px;
+  top: 1px;
+  display: flex;
+  justify-content: space-between; /* Fördela logga, meny och knapp */
+  align-items: center; /* Vertikal centrering */
+  padding: 10px 30px;
+  background-color: #FFF9F2;
+  box-sizing: border-box; /* För att inkludera padding i bredden */
+}
+
+/* Logotyp styling */
+#logo {
+  flex-basis: 200px; /* Fast bredd för logotypen */
+  display: flex;
+  justify-content: flex-start; /* Placera logotypen till vänster */
+  align-items: center;
+}
+
+/* Navigation list */
+nav {
+  flex-grow: 1; /* Ta upp så mycket utrymme som möjligt mellan logotyp och knapp */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Centrerar menyn horisontellt */
+  gap: 40px; /* Avstånd mellan länkarna */
+}
+
+/* Navigation links */
+nav ul li a {
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #65558F;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Save/Search button styling */
+.sok-button {
+  background-color: #65558F;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  flex-basis: 150px; /* Fast bredd för knappen */
+  display: flex;
+  justify-content: flex-end; /* Håll knappen till höger */
+}

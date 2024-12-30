@@ -1,0 +1,115 @@
+/* Header.css */
+.banner {
+  position: relative;
+  width: 100%;
+  height: 300px; /* Justera höjden för att göra bannern smalare */
+  margin-bottom: 20px;
+}
+
+.banner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Säkerställer att bilden täcker hela bannerområdet */
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  text-align: left;
+  left: 10%; /* Justera vänstervärdet för att placera texten på vänster sida */
+  transform: translateY(-50%); /* Översätt endast på Y-axeln för att centrera vertikalt */
+  color: #65558F; /* Ljus silverfärg */
+  text-shadow: 
+    2px 2px 4px rgba(0, 0, 0, 0.7), /* Original mörk skugga */
+    0 0 5px rgba(255, 255, 255, 0.6); /* Vit reflekterande skugga */
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.banner-text .small-text {
+  font-size: 40px; /* Mindre teckenstorlek för den andra raden */
+  font-weight: bold;
+}
+
+.strap {
+  height: 10mm;
+  background-color: #d8bfd8; /* Mild lila färg */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 1200px;
+}
+
+.strap p {
+  margin: 0;
+  margin-left: 20px; /* Lägger till en 20px vänstermarginal */
+  font-size: 16px;
+  color: rgb(49, 33, 56);
+  font-weight: bold; /* Gör texten fet */
+  max-width: 1200px;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center; /* Centrerar sökfältet */
+  margin: 20px 0;
+}
+
+.search-form {
+  display: flex; /* Arrangerar i rad */
+  align-items: center; /* Centrera vertikalt */
+}
+
+.search-form input, .search-form select, .search-form button {
+  padding: 10px;
+  font-size: 16px;
+  width: 150px; /* Gör alla fält lika stora */
+  margin-right: 5px; /* Avstånd mellan fälten */
+  border: 1px solid #65558F; /* Mörklila kant */
+  border-radius: 10px; /* Lätt rundade hörn */
+}
+
+.search-form select {
+  width: auto; /* Justerar bredden för valrutor */
+}
+
+.search-form button {
+  background-color: #65558F; /* Mörklila färg */
+  color: white; /* Gör texten läsbar */
+  border: 1px solid #65558F; /* Mörklila kant */
+  border-radius: 5px; /* Lätt rundade hörn */
+  cursor: pointer; /* Ändrar markören till pekare vid hovring */
+}
+
+.search-form button:hover {
+  background-color: #a08fa7; /* Ljusare lila vid hovring */
+}
+
+.passenger-container {
+  position: relative;
+  margin-right: 5px; /* Justerar med de andra elementen */
+  margin-left: 5px; /* Justerar med de andra elementen */
+}
+
+.passenger-dropdown {
+  display: flex;
+  flex-direction: column; /* Använder kolumnlayout för dropdown */
+  position: absolute; /* Positionerar dropdown absolut */
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Skugga för dropdown */
+  padding: 10px;
+  z-index: 1000; /* Säkerställer att dropdown ligger över andra element */
+}
+
+
+.calendar-input {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}

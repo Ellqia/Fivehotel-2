@@ -1,0 +1,9 @@
+.lilalinje {
+  position: absolute; /* Paverkar inte andra element*/
+  width: 1280px; /*Bredd på linjen*/
+  height: 20px; /* Hojd på linjen*/
+  margin-left: 40px; /*Avstand till vanster*/
+  margin-right: 40px; /* Avstand till höger*/
+  top: 130px; /* Avstånd ovanför*/
+  background: #D9CEDD; /* Bakgrundsfarg*/
+}

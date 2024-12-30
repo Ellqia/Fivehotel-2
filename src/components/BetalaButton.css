@@ -1,0 +1,18 @@
+.betala-button {
+  background-color: #65558F;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border-radius: 40px;
+  font-size: 16px;
+  font-weight: semi-bold;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px; /* Avstånd till formuläret */
+  margin-left: 550px; /* Avstånd vänster */
+  margin-right: 40px; /* Avstånd höger */
+  margin-bottom: 50px; /* Avstånd mellan knapparna och footer */
+}
+
+.betala-button:hover {
+  background-color: #D9CEDD; /* Ändrar bakgrundsfärgen vid hover */
+}

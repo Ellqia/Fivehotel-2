@@ -1,0 +1,102 @@
+.bokning-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Två lika breda kolumner */
+  gap: 20px; /* Utrymme mellan kolumnerna */
+  padding: 10px;
+  background-color: #fff;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.image-section {
+  display: flex;
+  justify-content: flex-start; /* Justera till toppen */
+  align-items: flex-start; /* Justera till toppen */
+}
+
+.chosen-hotel-img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 2px;
+  margin-left: 50px;
+  margin-top: 30px;
+  box-shadow: 0 4px 8px rgba(101, 85, 143, 0.3), /* Light shadow for reflection effect */
+              0 6px 20px rgba(101, 85, 143, 0.19); /* Darker shadow for depth */
+}
+
+
+.banner-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.dates-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.date-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.avresedatum,
+.hemdatum {
+  margin-top: 5px; /* Lägg till lite utrymme ovanför datumen */
+}
+
+.valj-container {
+  display: flex;
+  flex-direction: column; /* Stapla elementen vertikalt */
+  align-items: flex-start; /* Justera elementen till vänster */
+  gap: 20px; /* Utrymme mellan varje valj-item */
+  margin-top: 10px;
+  width: 100%; /* Säkerställ full bredd för justering */
+}
+
+.valj-item {
+  display: flex;
+  justify-content: space-between; /* Justera text och knapp horisontellt */
+  align-items: center; /* Centrera elementen vertikalt */
+  width: 100%; /* Full bredd */
+}
+
+.valj-button {
+  background-color: #D9CEDD;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: auto; /* Låt knappen justera storlek baserat på innehåll */
+}
+
+.valj-button:hover {
+  background-color: #65558F;
+  color: #fff;
+}
+
+.price-button-container {
+  display: flex;
+  justify-content: space-between; /* Justera pris och knapp horisontellt */
+  align-items: center; /* Centrera elementen vertikalt */
+  width: 200%; /* Full bredd */
+}
+
+.tillbaka-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}

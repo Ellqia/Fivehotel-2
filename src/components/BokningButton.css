@@ -1,0 +1,18 @@
+.bokning-button {
+  background-color: #D9CEDD;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: semi-bold;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px; /* Avstånd till formuläret */
+  margin-left: 90px; /* Avstånd vänster */
+ 
+  margin-bottom: 0px; /* Avstånd mellan knapparna och footer */
+}
+
+.bokning-button:hover {
+  background-color: #65558F ; /* Ändrar bakgrundsfärgen vid hover */
+}

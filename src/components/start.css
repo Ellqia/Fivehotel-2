@@ -1,0 +1,132 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Tre lika breda kolumner */
+  gap: 20px; /* Utrymme mellan bilderna */
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto; /* Centrera containern */
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 80px;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+.grid-image {
+  width: 100%;
+  height: 100%;
+  margin-bottom: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+
+/* Styling för remsor */
+.image-card .strap {
+  margin-top: 10px;
+  padding: 5px 20px;
+  margin-bottom: 20px;
+  background-color: #D9CEDD;
+  color: rgb(22, 5, 32);
+  font-weight: bold; /* Gör texten fet */
+  border-radius: 0;
+  display: inline-block;
+  width: 280px;
+  text-align: center;
+  text-decoration: solid;
+}
+
+.strap {
+  font-size: 14px;
+  color: #000;
+  font-weight: bold;
+  display: flex;
+  align-items: center; /* Centrera vertikalt */
+  justify-content: center; /* Centrera horisontellt */
+  height: 45px; /* Justera värdet vid behov */
+  width: 100%; /* Sätt bredden till 100% */
+  box-sizing: border-box; /* Inkludera padding och kant i elementets totala bredd och höjd */
+  padding: 0 20px;
+  text-align: center;
+}
+
+.strap-text { 
+  margin-top: 5px; /* Utrymme mellan remsan och beskrivningen */ 
+  font-size: 14px; 
+  color: #333; /* Mörkgrå textfärg */ 
+  text-align: center; 
+}
+
+.image-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Styling för annonseringscontainer */
+.ad-container {
+  width: 100%;
+  margin: 40px 0; /* Utrymme ovanför och under */
+  display: block;
+  flex-direction: column; /* Möjliggör vertikal stapling */
+  align-items: center;
+}
+
+/* Styling för den andra annonseringscontainern */
+.second-ad-container {
+  width: 100%;
+  margin: 30px 0 50px 0; /* Utrymme ovanför den andra annonsen och 50px under för foten */
+  display: flex;
+  flex-direction: column; /* Möjliggör vertikal stapling */
+  align-items: center;
+}
+
+/* Fullbredd bildstyling */
+.full-width-image {
+  width: 100%;
+  height: auto;
+}
+
+/* Bildnamn styling */
+.image-name {
+  margin-top: 10px; /* Utrymme ovanför bilden */
+  font-size: 16px;
+  color: #333;
+}
+
+/* Landsbeskrivning styling */
+.country-description {
+  margin-top: 5px; /* Utrymme mellan remsan och beskrivningen */
+  font-size: 14px;
+  color: #333; /* Mörkgrå textfärg */
+  text-align: center;
+}
+
+/* Pilstyling för tillbaka-knapp */
+.arrow-back {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+/* Pilstyling för upp-knapp */
+.arrow-up {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+/* Pilstyling */
+.arrow-icon {
+  width: 1cm;
+  height: 1cm;
+  cursor: pointer;
+}

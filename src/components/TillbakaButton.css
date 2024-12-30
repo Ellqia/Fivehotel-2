@@ -1,0 +1,28 @@
+.tillbaka-button {
+  background-color: #65558F; /*Bakgrundsfarg*/
+  color: rgb(255, 255, 255); /*Textfarg*/
+  padding: 5px 20px; /* Storlek på knapp*/
+  border-radius: 40px; /*Rundade horn*/
+  font-size: 16px; /* Teckenstorlek*/
+  font-weight: semi-bold; /* Gör texten semi-bold*/
+  border: none; /* Ingen kantlinje på knappen*/
+  cursor: pointer; /* Gor att muspekaren ser ut som en hand när den dras över knappen*/
+  margin-top: 40px; /* Minskat avstånd till formuläret */
+  margin-left: 40px;
+  margin-right: 200px; /* Öka avståndet till höger om knappen*/
+  margin-bottom: 50px; /* Ökat avstånd mellan knapparna och footer */
+  text-align: left;
+}
+
+/* Container for the TillbakaButton to align it to the left */
+.tillbaka-container {
+  display: flex;
+  justify-content: flex-start; /* Aligns the button to the left */
+  margin-top: 10px;
+  margin-bottom: 20px;
+  
+}
+
+.tillbaka-button:hover {
+  background-color: #D9CEDD; /* Ändrar bakgrundsfärgen vid hover */
+}

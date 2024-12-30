@@ -1,0 +1,67 @@
+body {
+  background-color: #f8f9fa; /* Mild bakgrundsfärg */
+}
+
+.personuppgifter-form-container {
+  background-color: #fff9db; /* Mild gul bakgrund */
+  padding: 40px; /* Lägg till padding */
+  border-radius: 10px; /* Rundade hörn */
+  margin: 20px auto; /* Centrera horisontellt */
+  max-width: 1000px; /* Max bredd för centrering */
+}
+
+.personuppgifter-rubrik {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.personuppgifter-form-wrapper {
+  display: flex;
+  gap: 20px; /* Mellanrum mellan kolumner */
+}
+
+.personuppgifter-form-column {
+  flex: 1; /* Jämnt fördela kolumner */
+}
+
+.personuppgifter-input-field {
+  width: 80%; /* Ställ in bredden på inputfält */
+  padding:30px; /* Lägg till padding */
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.personuppgifter-button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; /* Justera marginal för att säkerställa layout */
+}
+
+.personuppgifter-laggtill-button,
+.personuppgifter-save-btn,
+.personuppgifter-back-btn,
+.personuppgifter-continue-btn {
+  background-color: #d9cddd;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  border: none;
+  width: 30%; /* Undvik fast bredd på knappar */
+  cursor: pointer;
+  margin: 0 10px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+
+/* Specifika stilar för de sista två knapparna */
+.special-back-btn {
+  background-color: #65558f; /* Ny färg för specifik knapp */
+  color: #fff; /* Textfärg */
+}
+
+.special-continue-btn {
+  background-color: #65558f; /* Ny färg för specifik knapp */
+  color: #fff; /* Textfärg */
+}

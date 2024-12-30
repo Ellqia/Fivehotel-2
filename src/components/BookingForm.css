@@ -1,0 +1,97 @@
+/* Stil för bokningsformulär */
+.booking-form {
+  display: flex; /* Använd flexbox */
+  flex-wrap: wrap; /* Tillåt innehåll att bryta till nästa rad */
+  gap: 20px; /* Utrymme mellan flex-element */
+  max-width: 100%;
+  margin: 0 auto; /* Centrera formuläret */
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Stil för rubrik */
+.headline {
+  font-weight: bold; /* Fet stil */
+  font-size: 30px;
+  color: #65558F;
+  margin-bottom: 30px;
+}
+
+/* Stil för varje label i bokningsformuläret */
+.booking-form label {
+  display: flex;
+  flex-direction: column; /* Vertikal layout */
+  font-size: 16px;
+  color: #555;
+  flex: 1; /* Tillåt etiketter att växa och krympa */
+  min-width: 200px; /* Minsta bredd för varje etikett */
+}
+
+/* Stil för input- och select-fält */
+.booking-form input,
+.booking-form select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+}
+
+/* Stil för knappar */
+.select-button,
+.go-booking-button {
+  padding: 8px 20px;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Stil för "Select"-knappen */
+.select-button {
+  background-color: #65558F;
+}
+
+.select-button:hover {
+  background-color: #888;
+}
+
+/* Stil för "Go Booking"-knappen */
+.go-booking-button {
+  background-color: #65558F;
+}
+
+.go-booking-button:hover {
+  background-color: #65558F;
+}
+
+/* Stil för knapplayout */
+.center-button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+/* Stil för bokningssammanfattning */
+.booking-summary {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.booking-summary h2 {
+  margin-bottom: 10px;
+}
+
+.booking-summary pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}

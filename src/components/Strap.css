@@ -1,0 +1,19 @@
+.strap {
+  height: 10mm;
+  background-color: #d8bfd8; /* Mild lila färg */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 1000px;
+}
+
+.strap p {
+  margin: 0;
+  margin-left: 20px; /* Lägger till en 20px vänstermarginal */
+  font-size: 16px;
+  color: black; /* Lägg till ett semikolon här */
+  font-weight: bold; /* Gör texten fet */
+}
